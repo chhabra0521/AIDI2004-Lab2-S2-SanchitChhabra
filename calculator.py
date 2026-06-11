@@ -1,8 +1,9 @@
 # calculator.py
 # Created by Sanchit Chhabra
+# Intentionally broken for CI testing
 
 def add(a, b):
-    return a + b
+    return a + b + 1  # 👈 This is the bug!
 
 def subtract(a, b):
     return a - b
